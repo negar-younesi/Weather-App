@@ -2,6 +2,9 @@
 
 🌐 Live Demo
 
+🚀 View Weather App Live Demo
+🌐 Live Demo
+
 Try the application here:
 
 Weather App – Live Demo
