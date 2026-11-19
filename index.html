@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="theme-color" content="#0a1f44" />
+    <meta
+      name="description"
+      content="A modern weather application built with Vanilla JavaScript."
+    />
+
+    <title>Weather App</title>
+
+    <link rel="stylesheet" href="style.css" />
+
+    <script type="module" src="main.js"></script>
+  </head>
+
+  <body>
+    <main class="container">
+      <!-- Header -->
+
+      <header class="header">
+        <div class="brand">
+          <span class="brand-icon">🌤️</span>
+
+          <div>
+            <h1>Weather App</h1>
+            <p>Weather information around the world</p>
+          </div>
+        </div>
+
+        <button
+          class="theme-toggle"
+          id="themeToggle"
+          type="button"
+          aria-label="Toggle theme"
+        >
+          🌙
+        </button>
+      </header>
+
+      <!-- Search -->
+
+      <section class="search-section">
+        <div class="section-heading">
+          <h2>Find a City</h2>
+          <p>Search for a city to check its weather.</p>
+        </div>
+
+        <form id="weatherForm" class="search-form">
+          <input
+            type="text"
+            id="cityInput"
+            placeholder="Enter city name..."
+            autocomplete="off"
+            required
+            aria-label="City name"
+          />
+
+          <button type="submit" id="searchBtn">
+            <span id="searchText">Search</span>
+          </button>
+        </form>
+
+        <p id="message" class="message" role="status" aria-live="polite"></p>
+      </section>
+
+      <!-- Weather Dashboard -->
+
+      <section class="dashboard">
+        <div class="dashboard-header">
+          <h2>My Cities</h2>
+
+          <span id="cityCount" class="city-count"> 0 Cities </span>
+        </div>
+
+        <ul id="cities" class="cities">
+          <li id="emptyState" class="empty-state">
+            <span>🌍</span>
+
+            <h3>No cities added yet</h3>
+
+            <p>Search for a city to see its weather information.</p>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Footer -->
+
+      <footer class="footer">
+        <p>
+          Weather data provided by
+          <a
+            href="https://openweathermap.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            OpenWeatherMap
+          </a>
+        </p>
+
+        <p>Built with HTML, CSS and Vanilla JavaScript.</p>
+      </footer>
+    </main>
+  </body>
+</html>
