@@ -1,5 +1,10 @@
 # 🌤️ Weather App
 
+🌐 Live Demo
+
+Try the application here:
+
+Weather App – Live Demo
 A modern and responsive weather application built with HTML, CSS, and Vanilla JavaScript.
 
 The application allows users to search for cities, view current weather conditions, and check a five-day weather forecast.
