@@ -1,7 +1,6 @@
 # 🌤️ Weather App
 
 🚀 View Weather App Live Demo
-🌐 Live Demo
 
 ## 🌐 Live Demo
 
